@@ -1,15 +1,41 @@
-<!--  making all the files first I can do this!! -->
-
 <!DOCTYPE html>
 <html>
-<head>
-<title>Rory Shannon</title>
-</head>
-  
-<body>
-
-<h1>Rory Shannon</h1>
-<p>Link</p>
-
-</body>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="https://github.com/yourusername">GitHub</a></li>
+        </ul>
+      </nav>
+      <h1>Your Name</h1>
+    </header>
+    <main>
+      <img src="path/to/your/picture" id="profile-picture" alt="Your Name">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Write something about yourself here</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©2022 My Portfolio</p>
+    </footer>
+  </body>
 </html>
